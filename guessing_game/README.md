@@ -1,0 +1,1 @@
+Second step in the rust book. Programming a guessing game.
