@@ -1,5 +1,5 @@
 fn main() {
-    let mut x = 5;
+    let mut x: i32 = 5;
     println!("The value of x is: {x}");
     x = 6;
     println!("The value of x is: {x}");
@@ -9,7 +9,7 @@ fn main() {
     println!("The value of THREE_HOURS_IN_SECONDS is: {THREE_HOURS_IN_SECONDS}");
 
     // shadowing
-    let y = 5;
+    let y: i32 = 5;
     println!("The value of y is: {y}");
     {
         let y = 2 * y;
@@ -23,9 +23,8 @@ fn main() {
 
     println!("The value of spaces is: {spaces}");
 
-
-    // with shadowing you can change types. 
-    // but with mutable variables you cannot change the type of the variable once it is assigned. 
+    // with shadowing you can change types.
+    // but with mutable variables you cannot change the type of the variable once it is assigned.
     // you can't do this:
     // let mut spaces = "     ";
     // spaces = spaces.len(); // error: mismatched types
@@ -44,7 +43,6 @@ fn main() {
     println!("The value of x f64 is: {x}");
     let y: f32 = 3.0; // f32
     println!("The value of y f32 is: {y}");
-
 
     // math operations
 
@@ -67,7 +65,6 @@ fn main() {
     // remainder
     let remainder = 43 % 5;
     println!("The value of remainder is: {remainder}");
-
 
     // Boolean type
     let t = true;
@@ -103,14 +100,12 @@ fn main() {
 
     let a = [1, 2, 3, 4, 5];
 
-    
     // declaration
 
-    let a: [i32; 5] = [1, 2, 3, 4, 5];// the format is [type; size]
+    let a: [i32; 5] = [1, 2, 3, 4, 5]; // the format is [type; size]
 
     // broadcast
     let a = [3; 5]; // the format is [value; size]
-
 
     // array indexing
     let first_element = a[0];
@@ -118,7 +113,6 @@ fn main() {
 
     // functions
     another_function();
-
 }
 
 fn another_function() {

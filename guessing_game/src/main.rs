@@ -4,8 +4,10 @@ use std::io;
 
 fn main() {
     println!("Guess the number!");
-
-    let secret_number: u32 = rand::thread_rng().gen_range(1..=100);
+    let start_range = 1;
+    let end_range = 100;
+    println!("Pick a number from {start_range} to {}", end_range + 1 - 1);
+    let secret_number: u32 = rand::thread_rng().gen_range(start_range..=end_range);
 
     // println!("The secret number is: {secret_number}");
 
