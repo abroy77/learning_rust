@@ -21,3 +21,5 @@ fn expression() {
 fn increment(x: i32) -> i32 {
     x + 1 // since there's no semicolon, this is an expression. and x+1 is returned
 }
+
+// statements end in ';' and do not return a value

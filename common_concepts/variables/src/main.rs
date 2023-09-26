@@ -93,6 +93,12 @@ fn main() {
     let one = tup.2;
     println!("The value of one is: {one}");
 
+    // some more shadowing
+    let spaces = "   ";
+    println!("spaces in the start is {spaces}.");
+    let spaces = spaces.len();
+    println!("spaces later is {spaces}.");
+
     // Arrays
     // Rust arrays have fixed length
     // unlike tuple each element must have same size
