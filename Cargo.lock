@@ -105,6 +105,14 @@ name = "slice"
 version = "0.1.0"
 
 [[package]]
+name = "struct_example"
+version = "0.1.0"
+
+[[package]]
+name = "struct_intro"
+version = "0.1.0"
+
+[[package]]
 name = "temperature_conversion"
 version = "0.1.0"
 
