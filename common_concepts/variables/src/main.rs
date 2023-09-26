@@ -104,17 +104,17 @@ fn main() {
     // unlike tuple each element must have same size
     // unlike tuple, array can be mutable (not size though)
 
-    let a = [1, 2, 3, 4, 5];
+    let _a = [1, 2, 3, 4, 5];
 
     // declaration
 
-    let a: [i32; 5] = [1, 2, 3, 4, 5]; // the format is [type; size]
+    let _a: [i32; 5] = [1, 2, 3, 4, 5]; // the format is [type; size]
 
     // broadcast
-    let a = [3; 5]; // the format is [value; size]
+    let _a = [3; 5]; // the format is [value; size]
 
     // array indexing
-    let first_element = a[0];
+    let first_element = _a[0];
     println!(" first element of a is: {first_element}"); // note rust is zero indexed
 
     // functions
