@@ -97,6 +97,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "ref_and_borrow"
+version = "0.1.0"
+
+[[package]]
+name = "slice"
+version = "0.1.0"
+
+[[package]]
 name = "temperature_conversion"
 version = "0.1.0"
 
