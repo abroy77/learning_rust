@@ -1,4 +1,13 @@
 [workspace]
 
-members = ["*/*/"]
-exclude = [".git/", ".vscode/", "*/*/target/", "target/"]
+members = [
+    "common_collections/*",
+    "leetcode/*",
+    "structs/*",
+    "ownership/*",
+    "mini_scripts/*",
+    "enums_patterns/*",
+    "minigrep",
+]
+
+resolver = "1"
